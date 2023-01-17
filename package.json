@@ -1,7 +1,7 @@
 {
   "name": "my-app-name",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "homepage": "https://pasha-log.github.io/react-router-vending-machine",
     "react": "^16.6.0",
