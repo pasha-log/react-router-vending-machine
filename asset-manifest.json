@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.e60d54f6.chunk.css",
-  "main.js": "/static/js/main.59d7853a.chunk.js",
-  "main.js.map": "/static/js/main.59d7853a.chunk.js.map",
-  "static/js/1.41554195.chunk.js": "/static/js/1.41554195.chunk.js",
-  "static/js/1.41554195.chunk.js.map": "/static/js/1.41554195.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.e60d54f6.chunk.css.map": "/static/css/main.e60d54f6.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.0d1c97ead94db2fb95551f64aaff4bfc.js": "/precache-manifest.0d1c97ead94db2fb95551f64aaff4bfc.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/react-router-vending-machine/static/css/main.a78f858e.chunk.css",
+  "main.js": "/react-router-vending-machine/static/js/main.533d953a.chunk.js",
+  "main.js.map": "/react-router-vending-machine/static/js/main.533d953a.chunk.js.map",
+  "static/js/1.c170b0c2.chunk.js": "/react-router-vending-machine/static/js/1.c170b0c2.chunk.js",
+  "static/js/1.c170b0c2.chunk.js.map": "/react-router-vending-machine/static/js/1.c170b0c2.chunk.js.map",
+  "runtime~main.js": "/react-router-vending-machine/static/js/runtime~main.74fb27d5.js",
+  "runtime~main.js.map": "/react-router-vending-machine/static/js/runtime~main.74fb27d5.js.map",
+  "static/css/main.a78f858e.chunk.css.map": "/react-router-vending-machine/static/css/main.a78f858e.chunk.css.map",
+  "index.html": "/react-router-vending-machine/index.html",
+  "precache-manifest.fea1cb235969cd16096d5df64cf25609.js": "/react-router-vending-machine/precache-manifest.fea1cb235969cd16096d5df64cf25609.js",
+  "service-worker.js": "/react-router-vending-machine/service-worker.js"
 }
