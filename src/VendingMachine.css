@@ -1,7 +1,7 @@
 .Vending-machine {
 	background-image: url("https://i.pinimg.com/originals/2e/9b/fd/2e9bfddda704dd23c85677608a01c6cf.png");
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	object-fit: cover;
 	width: 95vw;
