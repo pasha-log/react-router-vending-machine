@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
 import Yerba from './Yerba';
 import Chips from './Chips';
@@ -9,18 +9,21 @@ function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<Route exact path="/">
-					<VendingMachine />
-				</Route>
-				<Route exact path="/yerba">
-					<Yerba />
-				</Route>
-				<Route exact path="/chips">
-					<Chips />
-				</Route>
-				<Route exact path="/larabar">
-					<LaraBar />
-				</Route>
+				<Switch>
+					<Route exact path="/">
+						<VendingMachine />
+					</Route>
+					<Route exact path="/yerba">
+						<Yerba />
+					</Route>
+					<Route exact path="/chips">
+						<Chips />
+					</Route>
+					<Route exact path="/larabar">
+						<LaraBar />
+					</Route>
+				</Switch>
+				<Redirect to="/" />
 			</BrowserRouter>
 		</div>
 	);
