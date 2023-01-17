@@ -22,8 +22,8 @@ function App() {
 					<Route exact path="/larabar">
 						<LaraBar />
 					</Route>
+					<Redirect to="/" />
 				</Switch>
-				<Redirect to="/" />
 			</BrowserRouter>
 		</div>
 	);
