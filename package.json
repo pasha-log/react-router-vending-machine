@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "homepage": "https://pasha-log.github.io/react-router-vending-machine",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-router-dom": "^5.2.1",
     "react-scripts": "2.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -24,9 +27,18 @@
     "not op_mini all"
   ],
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "<img src='./public/vending-machine.png' alt=''>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasha-log/react-router-vending-machine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pasha-log/react-router-vending-machine/issues"
+  }
 }
